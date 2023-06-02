@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blockchain Demo</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Blockchain Demo</h1>
+
+  <div id="addBlockForm" class="blockItem">
+    <h2>Add Block</h2>
+    <input type="text" id="blockDataInput" placeholder="Enter block data">
+    <button onclick="addBlock()">Add Block</button>
+  </div>
+
+  <div id="blockchainInfo">
+    <h2>Blockchain</h2>
+    <button onclick="getBlocks()">Show Blocks</button>
+    <div id="blockContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
